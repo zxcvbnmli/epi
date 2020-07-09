@@ -9,7 +9,7 @@ import java.util.Date;
  * @author:木子羽
  * @date:2020/7/9 11:56
  */
-public class user {
+public class User {
     private Integer userId;
     private String userName;
     private String password;
@@ -22,6 +22,11 @@ public class user {
     private Date entryDate;
     private Date leaveDate;
     private Date createDate;
+    public User(Integer userId,String userName, String password,
+                Integer userMode,Integer roleId,Integer sex,Integer age,
+                String email,String tel,Date entryDate,Date leaveDate,Date createDate){
+        this.userId=userId;
+    }
 
 
     public Integer getUserId() {
