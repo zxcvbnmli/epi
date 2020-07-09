@@ -26,6 +26,9 @@ public class User {
                 Integer userMode,Integer roleId,Integer sex,Integer age,
                 String email,String tel,Date entryDate,Date leaveDate,Date createDate){
         this.userId=userId;
+        this.userName=userName;
+        this.password=password;
+        this.userMode=userMode;
     }
 
 
