@@ -1,19 +1,13 @@
-package cn.bdqn.epi.pojo;/**
- * @PackageName:cn.bdqn.epi.pojo
- * @ClassName:HandleTak
- * @Description:
- * @author 杰哥
- * @date 2020/7/9 15:00
- */
+package cn.bdqn.epi.pojo;
 
 import java.util.Date;
 
 /**
- *@PackageName:cn.bdqn.epi.pojo
- *@ClassName:HandleTak
- *@Description:
- *@author 杰哥
- *@date 2020/7/9 15:00
+ * @PackageName:cn.bdqn.epi.pojo
+ * @ClassName:HandleTak
+ * @Description:
+ * @author:木子羽
+ * @date:2020/7/9 15:28
  */
 public class HandleTak {
     //消缺任务表
@@ -34,11 +28,11 @@ public class HandleTak {
     private String intactRate;//完好率
     private String exists;//任务是否取消  默认为否
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -58,11 +52,11 @@ public class HandleTak {
         this.taskName = taskName;
     }
 
-    public int getWorkTicket() {
+    public Integer getWorkTicket() {
         return workTicket;
     }
 
-    public void setWorkTicket(int workTicket) {
+    public void setWorkTicket(Integer workTicket) {
         this.workTicket = workTicket;
     }
 
