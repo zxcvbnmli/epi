@@ -10,22 +10,33 @@ import java.util.Date;
  * @date:2020/7/9 11:56
  */
 public class User {
-    private Integer userId;
-    private String userName;
-    private String password;
-    private Integer userMode;
-    private Integer roleId;
-    private Integer sex;
-    private Integer age;
-    private String email;
-    private String tel;
-    private Date entryDate;
-    private Date leaveDate;
-    private Date createDate;
+    private Integer userId;//用户id
+    private String userName;//用户名
+    private String password;//密码
+    private Integer userMode;//状态
+    private Integer roleId;//角色id
+    private Integer sex;//性别
+    private Integer age;//年龄
+    private String email;//邮箱
+    private String tel;//联系电话
+    private Date entryDate;//入职日期
+    private Date leaveDate;//离职日期
+    private Date createDate;//创建日期
     public User(Integer userId,String userName, String password,
                 Integer userMode,Integer roleId,Integer sex,Integer age,
                 String email,String tel,Date entryDate,Date leaveDate,Date createDate){
         this.userId=userId;
+        this.userName=userName;
+        this.password=password;
+        this.userMode=userMode;
+        this.roleId=roleId;
+        this.sex=sex;
+        this.age=age;
+        this.email=email;
+        this.tel=tel;
+        this.entryDate=entryDate;
+        this.leaveDate=leaveDate;
+        this.createDate=createDate;
     }
 
 
