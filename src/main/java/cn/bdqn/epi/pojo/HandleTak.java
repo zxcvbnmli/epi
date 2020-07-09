@@ -17,10 +17,10 @@ import java.util.Date;
  */
 public class HandleTak {
     //消缺任务表
-    private int id;//消缺编号
+    private Integer id;//消缺编号
     private String taskNum;//任务编号
     private String taskName;//任务名称
-    private int workTicket;//工作单据  0任务单 1第一种单据 2第二种单据
+    private Integer workTicket;//工作单据  0任务单 1第一种单据 2第二种单据
     private String issuer;//任务下发人  只能是线路管理员  谁下发谁负责
     private Date issuedTime;//下发时间
     private String pirncrpal;//负责人
