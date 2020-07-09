@@ -208,10 +208,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="78" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594281671588" />
-    <state x="385" y="11" key="CommitChangelistDialog2" timestamp="1594280350091">
+    <state x="385" y="11" key="CommitChangelistDialog2" timestamp="1594283819587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594280350091" />
+    <state x="385" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594283819587" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1594283896556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594283896556" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1594278457164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -228,10 +232,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594283548983" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1594280360431">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1594283912716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594280360431" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594283912716" />
     <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594275968244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
