@@ -1,5 +1,6 @@
 cn\bdqn\epi\EpiApplication.class
-cn\bdqn\epi\pojo\User.class
 cn\bdqn\epi\pojo\Role.class
-cn\bdqn\epi\pojo\Tower.class
 cn\bdqn\epi\pojo\HandleTak.class
+cn\bdqn\epi\pojo\User.class
+cn\bdqn\epi\dao\UserMapper.class
+cn\bdqn\epi\pojo\Tower.class

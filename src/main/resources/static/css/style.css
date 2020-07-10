@@ -7,7 +7,7 @@ Author: ThemeBucket
 @import url('bootstrap.min.css');
 @import url('bootstrap-reset.css');
 @import url('jquery-ui-1.10.3.css');
-@import url('../fonts/css/font-awesome.min.css');
+@import url('/fonts/css/font-awesome.min.css');
 
 body {
     background: #424f63;
@@ -52,7 +52,7 @@ hr {
 -------------------------------*/
 
 .login-body {
-    background: #65cea7 url("../images/login-bg.jpg") no-repeat fixed;
+    background: #65cea7 no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -305,17 +305,17 @@ hr {
 }
 
 .custom-nav > li.menu-list > a {
-    background: transparent url(../images/plus-white.png) no-repeat 93% center;
+    background: transparent url(/img/plus-white.png) no-repeat 93% center;
 }
 
 .custom-nav > li.menu-list > a:hover {
     background-color: #353f4f;
-    background-image: url(../images/plus.png);
+    background-image: url(/img/plus.png);
 }
 
 .custom-nav > li.nav-active > a {
     background-color: #353f4f;
-    background-image: url(../images/minus.png);
+    background-image: url(/img/minus.png);
     color: #65cea7;
 }
 
@@ -324,7 +324,7 @@ hr {
 }
 
 .custom-nav > li.nav-active > a:hover {
-    background-image: url(../images/minus.png);
+    background-image: url(/img/minus.png);
 }
 
 .custom-nav > li.active > a,
@@ -335,15 +335,15 @@ hr {
 }
 
 .custom-nav > li.menu-list.active > a {
-    background-image: url(../images/plus.png);
+    background-image: url(/img/plus.png);
 }
 
 .custom-nav > li.nav-active.active > a {
-    background-image: url(../images/minus.png);
+    background-image: url(/img/minus.png);
 }
 
 .custom-nav > li.nav-active.active > a:hover {
-    background-image: url(../images/minus.png);
+    background-image: url(/img/minus.png);
 }
 
 .custom-nav li .fa {
@@ -811,7 +811,7 @@ h5.left-nav-title {
 
 .normal-list li .name {
     font-size: 13px;
-    font-family: 'Arial' Helvetica, sans-serif;
+    font-family: 'Arial';
     line-height: 21px;
 }
 
@@ -2538,7 +2538,7 @@ table.display tr.even.gradeX, table.display tr.gradeX, tr.even.gradeU td.sorting
 }
 
 input.spinner[type="text"], input.spinner[type="password"], input.spinner[type="datetime"], input.spinner[type="datetime-local"], input.spinner[type="date"], input.spinner[type="month"], input.spinner[type="time"], input.spinner[type="week"], input.spinner[type="number"], input.spinner[type="email"], input.spinner[type="url"], input.spinner[type="search"], input.spinner[type="tel"], input.spinner[type="color"] {
-    background: url("../images/input-spinner.gif") right no-repeat !important;
+    background:right no-repeat !important;
 }
 
 /*--------------------
@@ -2808,7 +2808,7 @@ div.tagsinput span.tag a {
 --------------------------*/
 
 .lock-screen {
-    background: #6fc4a5 url("../images/lockscreen-bg.jpg") no-repeat fixed;
+    background: #6fc4a5 no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
