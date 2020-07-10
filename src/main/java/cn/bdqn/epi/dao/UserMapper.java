@@ -1,5 +1,9 @@
 package cn.bdqn.epi.dao;
 
+import cn.bdqn.epi.pojo.User;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
 /**
  * @PackageName:cn.bdqn.epi.dao
  * @ClassName:UserInterface
@@ -8,9 +12,10 @@ package cn.bdqn.epi.dao;
  * @date:2020/7/9 16:05
  */
 //用户接口
+@Mapper
 public interface UserMapper {
     /**
-     *
+     *登录
      */
-
+    public User checkLogin(@Param("userName") String userName, @Param("password")String password);
 }
