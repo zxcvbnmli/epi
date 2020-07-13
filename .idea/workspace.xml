@@ -1,8 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15b0f61f-4d9a-49e9-8641-a5f99fa2169c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+    <list default="true" id="15b0f61f-4d9a-49e9-8641-a5f99fa2169c" name="Default Changelist" comment="1.1.9提交">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/epi/controller/WorkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/fonts/beid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/fonts/fontawesome/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-ExtraLight-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-ExtraLightItalic-BETA.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Light-BETA.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Light-BETA.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Light-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Light-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/Inter-Thin-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/inter/inter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/theme/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/theme/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/theme/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/app/a-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/app/a-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/app/a-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/app/a-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/app/app_store-badge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/app/google_play-badge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/avatar/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/avatar/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/avatar/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/avatar/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/bg/bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/bg/sidebar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/eCommerce/eCe-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/eCommerce/eCe-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/eCommerce/eCe-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/eCommerce/eCe-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/eCommerce/eCe-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/flag/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/flag/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/flag/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/flag/ger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/flag/uk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/flag/usa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/headset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/left-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/outbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/profit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/icons/right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/preloader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/profile/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/profile/profile-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/profile/profile-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/profile/profile-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/profile/profile-img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/profile/profile-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/apexcharts/apexcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/chart/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/chart/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/chart/chartjs-plugin-annotation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/chart/chartjs-plugin-labels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/ion.rangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/ion.rangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/jqvmap/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/jqvmap/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/lib/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/owl.carousel/dist/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/owl.carousel/dist/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/owl.carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/rangeslider/rangeslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/scrollbar/jquery.nicescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/plugins/scrollbar/zoomico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index-analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c54a3612-928d-4a35-b7bb-a35ecc81d19a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c54a3612-928d-4a35-b7bb-a35ecc81d19a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
@@ -79,10 +168,30 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/epi/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/epi/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/EpiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/Backlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/Defact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/DefactLevels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/HandleTak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/Patrol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/Tower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/epi/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.bdqn.epi.EpiApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.bdqn.epi.EpiApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/bdqn/epi/EpiApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +202,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="MybatisMapper" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -104,15 +213,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="87d989a3-4fed-4d99-a99d-360103f45868" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\tools\maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="E:\tools\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="mavenHome" value="D:/javaTools/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\javaTools\maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -122,7 +227,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1eQqURtFHMm0aOaSCSpRyMP5T5K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -137,26 +244,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/css/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\epi\src\main\resources\static" />
+      <recent name="D:\workspace\epi\src\main\resources" />
+      <recent name="D:\workspace\epi\src\main\resources\templates" />
       <recent name="E:\tools\Workspaces\idea\epi\src\main\resources\static\css\now" />
       <recent name="E:\tools\Workspaces\idea\epi\src\main\resources\static\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\epi\src\main\resources\static\assets" />
+      <recent name="D:\workspace\epi\src\main\resources\templates" />
+      <recent name="D:\workspace\epi\src\main\resources\static" />
       <recent name="E:\tools\Workspaces\idea\epi\src\main\resources\static\css\data" />
       <recent name="E:\tools\Workspaces\idea\epi\src\main\resources\static\css" />
-      <recent name="E:\tools\Workspaces\idea\epi\src\main\resources\static\js" />
-      <recent name="E:\tools\Workspaces\idea\epi\src\main\resources\static\img" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="EpiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="epi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bdqn.epi.EpiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,6 +303,9 @@
       <workItem from="1594264182935" duration="3336000" />
       <workItem from="1594273645519" duration="7423000" />
       <workItem from="1594338806256" duration="2237000" />
+      <workItem from="1594349043547" duration="2656000" />
+      <workItem from="1594560499040" duration="4556000" />
+      <workItem from="1594603071484" duration="8194000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1594267089100</created>
@@ -361,26 +480,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.1.9提交" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="63" width="1177" height="697" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594609794705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="63" width="1177" height="697" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594609794705" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1594339537314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594339537314" />
+    <state x="295" y="9" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594609815897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="295" y="9" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1594609815897" />
     <state x="473" y="78" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1594339635293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="78" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594339635293" />
-    <state x="385" y="11" key="CommitChangelistDialog2" timestamp="1594284010510">
+    <state x="436" y="102" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594605685928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594284010510" />
+    <state x="436" y="102" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594605685928" />
+    <state x="110" y="55" width="1297" height="757" key="CommitChangelistDialog2" timestamp="1594611258949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="55" width="1297" height="757" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594611258949" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1594283896556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594283896556" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1594278457164">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="216" key="FileChooserDialogImpl" timestamp="1594562214063">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594278457164" />
+    <state x="686" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594562214063" />
     <state x="643" y="308" width="273" height="280" key="Github.ShareDialog" timestamp="1594275338860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -389,54 +521,88 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="599" y="119" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594266079289" />
-    <state width="1493" height="99" key="GridCell.Tab.0.bottom" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.0.bottom" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.0.center" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019051" />
+    <state width="1483" height="246" key="GridCell.Tab.0.center" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.0.left" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019051" />
+    <state width="1483" height="246" key="GridCell.Tab.0.left" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.0.right" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019051" />
+    <state width="1483" height="246" key="GridCell.Tab.0.right" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.1.bottom" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019051" />
+    <state width="1483" height="246" key="GridCell.Tab.1.bottom" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.1.center" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019052" />
+    <state width="1483" height="246" key="GridCell.Tab.1.center" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.1.left" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019052" />
+    <state width="1483" height="246" key="GridCell.Tab.1.left" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
-    <state width="1493" height="99" key="GridCell.Tab.1.right" timestamp="1594348602175">
+    <state width="1483" height="246" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019051" />
+    <state width="1483" height="246" key="GridCell.Tab.1.right" timestamp="1594611041356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="99" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594348602175" />
+    <state width="1483" height="246" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594611041356" />
+    <state width="932" height="141" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594565019052" />
+    <state width="933" height="319" key="GridCell.Tab.2.bottom" timestamp="1594562433286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="933" height="319" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594562433286" />
+    <state width="933" height="319" key="GridCell.Tab.2.center" timestamp="1594562433286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="933" height="319" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594562433286" />
+    <state width="933" height="319" key="GridCell.Tab.2.left" timestamp="1594562433286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="933" height="319" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594562433286" />
+    <state width="933" height="319" key="GridCell.Tab.2.right" timestamp="1594562433286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="933" height="319" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594562433286" />
     <state x="477" y="129" key="MultipleFileMergeDialog" timestamp="1594345342631">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594345342631" />
-    <state x="272" y="58" key="SettingsEditor" timestamp="1594283548983">
+    <state x="242" y="0" key="SettingsEditor" timestamp="1594609799759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594283548983" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1594284032767">
+    <state x="242" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594609799759" />
+    <state x="340" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594562226406" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1594611476329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594284032767" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594611476329" />
+    <state x="376" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1594603521204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="376" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594603521204" />
+    <state x="470" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594560499654" />
     <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594345320439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594345320439" />
+    <state x="366" y="100" width="803" height="624" key="find.popup" timestamp="1594609879100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="366" y="100" width="803" height="624" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594609879100" />
     <state x="495" y="215" key="git4idea.merge.GitPullDialog" timestamp="1594345145162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
