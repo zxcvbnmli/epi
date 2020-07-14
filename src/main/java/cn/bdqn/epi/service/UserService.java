@@ -12,7 +12,7 @@ import cn.bdqn.epi.pojo.User;
 public interface UserService {
     /**
      * 登录
-     * @param UserName
+     * @param userName
      * @param password
      * @return
      */

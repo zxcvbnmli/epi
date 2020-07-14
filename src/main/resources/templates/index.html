@@ -24,7 +24,7 @@
     <nav class="main-navbar navbar navbar-expand-lg navbar-light shadow-2">
         <div class="lnav-box d-flex">
             <div class="logo-wrapper px-3 d-none d-md-flex">
-                <img src="/assets/img/logo.png" alt="Logo">
+                <p>电力巡查系统<p/>
             </div>
             <div class="sidebar-toggler-wrapper ml-auto">
                 <button class="p-collapsing-sidebar-toggler sidebar-toggler-secondary transition rounded-circle"
@@ -38,321 +38,30 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1" id="dropdownDashboards"
                        href="index-analytics.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="fw-400"><i class="far fa-folder mr-1"></i><span class="d-none d-xl-inline">我的工作台</span></span>
+                        <span class="fw-400"><i class="fas fa-desktop"></i><span class="d-none d-xl-inline">   我的工作台</span></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-left shadow-1 py-3 position-absolute mt-1" aria-labelledby="dropdownDashboards">
-                        <a class="dropdown-item" href="index-dashboard.html">待办任务列表</a>
+                        <a class="dropdown-item" href="todo">待办任务列表</a>
                         <a class="dropdown-item" href="index-eCommerce.html">个人资料修改</a>
                     </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1" id="dropdownEcommerce"
-                       href="index-analytics.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="fw-400"><i class="icon-cart mr-1"></i><span class="d-none d-xl-inline">E-Commerce</span></span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-left shadow-1 py-3 position-absolute mt-1" aria-labelledby="dropdownEcommerce">
-                        <a class="dropdown-item" href="shop.html">Shop</a>
-                        <a class="dropdown-item" href="product-details.html">Product details</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1" href="email.html">
-                        <span class="fw-400"><i class="icon-closed-envelope-email mr-1"></i><span class="d-none d-xl-inline">Email</span></span>
-                    </a>
                 </li>
             </ul>
         </div>
         <div class="pr-6">
             <ul class="nav sec-nav navbar-nav flex-row">
-                <li class="nav-item dropdown">
-                    <a class="nav-link text-capitalize d-none d-md-inline-flex align-items-center h-100 small-2" href="index-analytics.html#"
-                       id="dropdownLang_02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="img-lang mr-3" src="/assets/img/icons/flag/usa.svg" alt="USA">
-                        <div class="lh-1 fw-400">
-                            English
-                        </div>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 position-absolute mt-1" aria-labelledby="dropdownAdmin">
-                        <a class="dropdown-item d-flex align-items-center py-1" href="index-analytics.html#">
-                            <img class="img-lang mr-3" src="/assets/img/icons/flag/usa.svg" alt="USA">
-                            English
-                        </a>
-                        <a class="dropdown-item d-flex align-items-center py-1" href="index-analytics.html#">
-                            <img class="img-lang mr-3" src="/assets/img/icons/flag/ger.svg" alt="GR">
-                            German
-                        </a>
-                        <a class="dropdown-item d-flex align-items-center py-1" href="index-analytics.html#">
-                            <img class="img-lang mr-3" src="/assets/img/icons/flag/fr.svg" alt="FR">
-                            France
-                        </a>
-                        <a class="dropdown-item d-flex align-items-center py-1" href="index-analytics.html#">
-                            <img class="img-lang mr-3" src="/assets/img/icons/flag/cn.svg" alt="CN">
-                            Chinese
-                        </a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="index-analytics.html#" data-toggle="offcanvas" data-target="#offcanvas-search" class="nav-link lead-2 pl-2 pl-md-3"><span
-                            class="icon-search"></span></a>
-                </li>
-                <li class="notf-item nav-item p-static p-md-relative dropdown">
-                    <a class="notf-link nav-link d-inline-flex align-items-center h-100 small-1 pl-2 pl-md-3" href="index-analytics.html#"
-                       id="dropdownAdmin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="p-relative d-inline-flex">
-                  <span class="badge badge-counter badge-warning l-1">8</span><span class="icon-bell lead-2"></span>
-                </span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-sm-center dropdown-menu-right dropdown-menu-wh shadow-1 bc-t position-absolute mt-1"
-                         aria-labelledby="dropdownAdmin">
-                        <div class="dropdown-inner rounded-2">
-                            <div class="warning-gradient px-4 py-3 text-center">
-                                <h5 class="mb-0">Notifications (+5)</h5>
-                            </div>
-                            <div class="pl-4 pr-3 py-5">
-                                <div class="dropdown-scrollbar" data-scrollbar="dropdown">
-                                    <ul class="list-unstyled">
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    2 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    3 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    6 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    6 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    6 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    7 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    7 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="pb-4">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning lead-2"><i class="fas fa-box"></i></div>
-                                                <div class="px-4">
-                                                    <span class="text-warning lead-1 lh-2 fw-600 d-block">New Message</span>
-                                                    <span>New message?</span>
-                                                </div>
-                                                <div class="text-nowrap ml-auto pr-4">
-                                                    8 hours ago
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="dropdown-load-more text-center px-4 py-2">
-                                <a href="index-analytics.html#">load more</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="notf-item nav-item p-static p-md-relative dropdown">
-                    <a class="notf-link nav-link d-inline-flex align-items-center h-100 small-1 pl-2 pl-md-3" href="index-analytics.html#"
-                       id="dropdownCart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="p-relative d-inline-flex">
-                  <span class="badge badge-counter badge-warning l-1">7</span><span class="icon-cart lead-2"></span>
-                </span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right dropdown-menu-sm-center dropdown-menu-wh shadow-1 bc-t position-absolute mt-1"
-                         aria-labelledby="dropdownCart">
-                        <div class="dropdown-inner rounded-2">
-                            <div class="warning-gradient px-4 py-3 text-center">
-                                <h5 class="mb-0">Cart (+3)</h5>
-                            </div>
-                            <div class="pl-4 pr-3 py-5">
-                                <div class="dropdown-scrollbar" data-scrollbar="dropdown">
-                                    <ul class="cart_list_hr list-unstyled">
-                                        <li class="cart_list_item_hr">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning cart-img lead-2">
-                                                    <img src="/assets/img/eCommerce/eCe-01.jpg" class="" alt="Smart Watch">
-                                                </div>
-                                                <div class="flex-1 px-4">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="pr-4">
-                                                            <span class="text-warning lead-1 lh-2 fw-600 d-block">Apple Watch OS</span>
-                                                            <div class="cart-nav-desc">Learn small ways to make a big difference to.</div>
-                                                        </div>
-                                                        <div class="px-3 ml-auto">
-                                                            <a href="index-analytics.html#" class="text-nowrap text-warning"><i class="fas fa-trash"></i></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex">
-                                                        <div>x1</div>
-                                                        <div class="ml-auto">$1000</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="cart_list_item_hr">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning cart-img lead-2">
-                                                    <img src="/assets/img/eCommerce/eCe-02.jpg" class="" alt="Smart Watch">
-                                                </div>
-                                                <div class="flex-1 px-4">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="pr-4">
-                                                            <span class="text-warning lead-1 lh-2 fw-600 d-block">Apple iMac</span>
-                                                            <div class="cart-nav-desc">Learn small ways to make a big difference to.</div>
-                                                        </div>
-                                                        <div class="px-3 ml-auto">
-                                                            <a href="index-analytics.html#" class="text-nowrap text-warning"><i class="fas fa-trash"></i></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex">
-                                                        <div>x1</div>
-                                                        <div class="ml-auto">$1000</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="cart_list_item_hr">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning cart-img lead-2">
-                                                    <img src="/assets/img/eCommerce/eCe-03.jpg" class="" alt="Smart Watch">
-                                                </div>
-                                                <div class="flex-1 px-4">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="pr-4">
-                                                            <span class="text-warning lead-1 lh-2 fw-600 d-block">Apple Watch OS</span>
-                                                            <div class="cart-nav-desc">Learn small ways to make a big difference to.</div>
-                                                        </div>
-                                                        <div class="px-3 ml-auto">
-                                                            <a href="index-analytics.html#" class="text-nowrap text-warning"><i class="fas fa-trash"></i></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex">
-                                                        <div>x1</div>
-                                                        <div class="ml-auto">$1000</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="cart_list_item_hr">
-                                            <div class="d-flex align-items-center text-white">
-                                                <div class="text-warning cart-img lead-2">
-                                                    <img src="/assets/img/eCommerce/eCe-04.jpg" class="" alt="Smart Watch">
-                                                </div>
-                                                <div class="flex-1 px-4">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="pr-4">
-                                                            <span class="text-warning lead-1 lh-2 fw-600 d-block">Apple Watch OS</span>
-                                                            <div class="cart-nav-desc">Learn small ways to make a big difference to.</div>
-                                                        </div>
-                                                        <div class="px-3 ml-auto">
-                                                            <a href="index-analytics.html#" class="text-nowrap text-warning"><i class="fas fa-trash"></i></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex">
-                                                        <div>x1</div>
-                                                        <div class="ml-auto">$1000</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="dropdown-load-more text-center px-4 py-2">
-                                <a href="index-analytics.html#"><span class="icon-cart mr-1"></span> View Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="userTH-item nav-item dropdown">
-                    <a class="userTH-link nav-link d-inline-flex align-items-center h-100 small-1 pl-2 pl-md-3" href="index-analytics.html#"
-                       id="dropdownAdmin_01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="icon-options lead-2"></span></a>
-                    <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 position-absolute mt-1" aria-labelledby="dropdownAdmin">
-                        <a class="dropdown-item" href="index-analytics.html#">Dashboards</a>
-                        <a class="dropdown-item" href="index-analytics.html#">UI</a>
-                        <a class="dropdown-item" href="index-analytics.html#">Charts</a>
-                    </div>
-                </li>
                 <li class="user-item nav-item dropdown">
                     <a class="user-link nav-link d-inline-flex align-items-center h-100 small-1 pl-1 pl-sm-3 pr-0" href="index-analytics.html#"
                        id="dropdownAdmin_02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="user-avatar rounded-circle mr-sm-3" src="/assets/img/avatar/1.jpg" alt="Avatar">
                         <div class="d-none d-sm-block lh-1">
                             <div class="lh-5">Albert Scott</div>
-                            <span class="small-3"><i class="fas fa-circle text-warning small-5"></i> Online</span>
+                            <span class="small-3"><i class="fas fa-circle text-warning small-5"></i>在线</span>
                         </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 position-absolute mt-2" aria-labelledby="dropdownAdmin">
-                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-messenger-user-avatar mr-2"></span>My
-                            Profile</a>
-                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-closed-envelope-email mr-2"></span>Messages</a>
-                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-options-gear mr-2"></span>Settings</a>
-                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-power-on-buton mr-2"></span>Logout</a>
+                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-messenger-user-avatar mr-2"></span>我的资料</a>
+                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-options-gear mr-2"></span>修改密码</a>
+                        <a class="dropdown-item" href="index-analytics.html#"><span class="icon-power-on-buton mr-2"></span>退出</a>
                     </div>
                 </li>
             </ul>
@@ -375,7 +84,7 @@
                     <div class="collapse nav-collapse collapse show">
                         <ul class="list-unstyled">
                             <li class="nav-item">
-                                <a href="index-dashboard.html" class="p-collapsing-title nav-link">
+                                <a href="to-do" class="p-collapsing-title nav-link">
                                     <span>待办任务列表</span>
                                 </a>
                             </li>
