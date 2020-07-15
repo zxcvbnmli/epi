@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,7 +84,7 @@
                     <div class="collapse nav-collapse collapse show">
                         <ul class="list-unstyled">
                             <li class="nav-item">
-                                <a href="index-dashboard.html" class="p-collapsing-title nav-link">
+                                <a href="/todo" class="p-collapsing-title nav-link">
                                     <span>待办任务列表</span>
                                 </a>
                             </li>
@@ -246,7 +246,14 @@
                 </tr>
                 </thead><!-- thead末尾 -->
                 <tbody>
-
+                <tr  th:each="user : ${list}">
+                <td th:text="${user.taskTypes}"></td>
+                    <td th:text="${user.backlogName}"></td>
+                    <td th:text="${user.arrivalTime}"></td>
+                    <td>
+                        <a class="btn btn-default"   th:id="${user.id}" th:onclick="look([(${user.id})])"> 查看</a>|<a class="btn btn-default" >处理</a>
+                    </td>
+                </tr>
                 </tbody><!-- tbody末尾 -->
             </table><!-- table末尾 -->
 
@@ -265,5 +272,11 @@
 <script src="/assets/js/main.js" id="_mainJS" data-plugins="load"></script>
 <!-- Modules -->
 <script src="/assets/js/modules.js"></script>
+<script>
+    function look(id) {
+    alert(id)
+    }
+
+</script>
 </body>
 </html>

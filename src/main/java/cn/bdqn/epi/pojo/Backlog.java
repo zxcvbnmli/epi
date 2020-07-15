@@ -6,6 +6,7 @@ package cn.bdqn.epi.pojo;/**
  * @date 2020/7/9 16:01
  */
 
+
 import java.util.Date;
 
 /**
@@ -19,6 +20,8 @@ public class Backlog {
     private String id;//待办任务的序列编号
     private String taskTypes;//待办任务类型
     private String backlogName;//待办任务名称
+
+//    @Jsonfield(pattern="yyyy-MM-dd HH:mm:ss")
     private Date arrivalTime;//到达时间
 
     public String getId() {

@@ -57,7 +57,14 @@ public class LoginController {
      */
     @RequestMapping("/toMain")
     public String toMain(){
-        System.out.println("123");
+        return "index";
+    }
+    /**
+     * 执行注销功能
+     */
+    @RequestMapping("/loginOut")
+    public String loginOut(){
+
         return "index";
     }
 }
