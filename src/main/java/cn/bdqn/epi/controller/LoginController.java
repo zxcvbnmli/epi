@@ -65,6 +65,6 @@ public class LoginController {
     @RequestMapping("/loginOut")
     public String loginOut(){
 
-        return "index";
+        return "epi/login";
     }
 }

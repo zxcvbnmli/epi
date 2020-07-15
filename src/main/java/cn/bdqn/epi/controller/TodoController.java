@@ -24,6 +24,7 @@ import java.util.Map;
  *@date 2020/7/14 17:54
  */
 @Controller
+@RequestMapping("/epi")
 public class TodoController {
 
     @Resource
