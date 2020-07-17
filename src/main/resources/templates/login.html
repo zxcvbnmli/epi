@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -12,12 +12,13 @@
 </head>
 <body class="login-body">
 <div class="container">
-    <form class="form-signin" method="post" action="/epi/toMain">
+    <form class="form-signin" method="post" action="/epi/doLogin">
         <div class="form-signin-heading text-center">
             <h1 class="sign-title">登录页面</h1>
             <img src="/img/login-logo.png" alt=""/>
         </div>
         <div class="login-wrap">
+            <span style="color:red"></span>
             <input type="text" class="form-control" name="userName" placeholder="用户名" autofocus>
             <input type="password" class="form-control" name="password" placeholder="密码">
             <button class="btn btn-lg btn-login btn-block" type="submit">

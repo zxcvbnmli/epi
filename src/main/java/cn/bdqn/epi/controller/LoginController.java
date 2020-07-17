@@ -34,8 +34,8 @@ public class LoginController {
     }
     /*登录*/
     @RequestMapping(value="/doLogin",method=RequestMethod.POST)
-    public String doLogin(@RequestParam String userName,
-                          @RequestParam String password,
+    public String doLogin(@RequestParam("userName") String userName,
+                          @RequestParam("password") String password,
                           HttpSession session,
                           Model model){
 
@@ -43,13 +43,13 @@ public class LoginController {
         if(null!=user){//验证通过==重定向到首页并且用户信息写入到session
             session.setAttribute("user", user);//将用户对象放到session作用域中
             //重定向到首页的一个请求并不是一个页面。
-            return "redirect:/epi/main";
+            return "redirect:/epi/toMain";
         }else{//验证失败
             model.addAttribute("message", "用户名或密码不正确！");
             //模拟出现了异常
             //throw new RuntimeException("用户名或密码不正确！");
             //回到登录页面
-            return "epi/login";
+            return "redirect:/epi/login";
         }
     }
     /**

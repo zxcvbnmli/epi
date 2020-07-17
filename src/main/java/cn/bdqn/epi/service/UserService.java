@@ -2,6 +2,8 @@ package cn.bdqn.epi.service;
 
 import cn.bdqn.epi.pojo.User;
 
+import java.util.List;
+
 /**
  * @PackageName:cn.bdqn.epi.service
  * @ClassName:UserService
@@ -17,4 +19,8 @@ public interface UserService {
      * @return
      */
     public User Login(String userName, String password);
+    /**
+     * 查询用户信息
+  */
+    public User findUser(String userName);
 }

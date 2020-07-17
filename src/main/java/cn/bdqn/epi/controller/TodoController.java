@@ -32,18 +32,10 @@ public class TodoController {
 
     @RequestMapping("/todo")
     public String todo(Model model){
-        System.out.println("234");
         List<Backlog> list =  workService.fetchWork();
         model.addAttribute("list",list);
         return "to-dolist";
     }
 
-    /**
-     * 跳转到个人资料页面
-     * @return
-     */
-    @RequestMapping("/geren")
-    public String togeren(){
-        return "gerenzl";
-    }
+
 }

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @PackageName:cn.bdqn.epi.service.impl
@@ -32,4 +33,11 @@ public class UserServiceImpl implements UserService {
     public User Login(String userName, String password) {
         return userMapper.checkLogin(userName,password);
     }
+
+    @Override
+    public User findUser( String userName) {
+        return userMapper.findUser(userName);
+    }
+
+
 }

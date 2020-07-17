@@ -6,4 +6,8 @@
     <select id="checkLogin" parameterType="User" resultType="User">
         select * from user where userName=#{userName} and password=#{password}
     </select>
+    <select id="findUser" parameterType="User" resultType="User">
+        select u.userId,r.roleName,u.sex,u.age,u.email,u.tel,u.entryDate,u.leaveDate from user u inner join role r on u.roleId=r.roleId where u.userName=#{userName}
+    </select>
+
 </mapper>
